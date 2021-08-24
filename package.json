@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"webpack"
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -17,10 +17,6 @@
     "babel-loader": "^8.2.2",
     "core-js": "^3.15.2",
     "css-loader": "^5.2.6",
-    "eslint": "^7.30.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-loader": "^4.0.2",
-    "eslint-plugin-import": "^2.23.4",
     "file-loader": "^6.2.0",
     "html": "^1.0.0",
     "html-loader": "^2.1.2",
@@ -64,5 +60,11 @@
   "sideEffects": [
     "*.css",
     "*.less"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.24.1"
+  }
 }
